@@ -1,7 +1,7 @@
 export default function Page() {
   return (
     <main className="mainContent">
-      <h1>Italian Food</h1>
+      <h1>Food Name</h1>
     </main>
   );
 }
