@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Page from "./components/Page";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Page />
       <Page />
       <Page />
+      <Footer />
     </div>
   );
 }
