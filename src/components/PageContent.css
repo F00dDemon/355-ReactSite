@@ -1,0 +1,11 @@
+.arrayGuys{
+    display: inline-block;
+    /* margin: 4rem; */
+    height: 100%    ;
+}
+ol{
+    border: 2px solid green
+}
+ul{
+    border: 2px solid yellow
+}

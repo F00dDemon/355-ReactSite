@@ -9,9 +9,9 @@ function App() {
     <div>
       <Header />
       <Hero />
-      <Page />
-      <Page />
-      <Page />
+      <Page foodName="Risotto"/>
+      <Page foodName="Mushroom Veal"/>
+      <Page foodName="Pizza"/>
       <Footer />
     </div>
   );
