@@ -1,0 +1,13 @@
+App
+├── Header
+├── HeroSection
+├── Section (title="Risotto")
+│   ├── RecipeList
+│   ├── HowToMake
+├── Section (title="Mushroom Veal")
+│   ├── RecipeList
+│   ├── HowToMake
+├── Section (title="Pizza")
+│   ├── RecipeList
+│   ├── HowToMake
+└── Footer
