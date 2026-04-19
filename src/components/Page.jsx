@@ -4,10 +4,12 @@ import "./Page.css"
 
 export default function Page( {foodName} ) {
   return (
-    <main className="mainContent pure-g">
-      <h1 id="contentTitle">{foodName}</h1>
-      <HowTo />
-      <RecipeList />
+    <main className="mainContent">
+      <h1 id="contentTitle" className="pure-u-1">{foodName}</h1>
+      <div class="pure-g">
+        <HowTo />
+        <RecipeList />
+      </div>
     </main>
   );
 }
