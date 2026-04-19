@@ -12,15 +12,24 @@ function App() {
       <Hero />
       <Page
         foodName="Risotto"
-        ingredients="Rice Broth, butter, cheese"
+        ingredient1="Arborio Rice"
+        ingredient2="Broth"
+        ingredient3="Butter"
+        ingredient4="Parmesean"
       />
       <Page
         foodName="Mushroom Veal"
-        ingredients="yeumlolri,m"
+        ingredient1="Fresh Veal"
+        ingredient2="Mushroom"
+        ingredient3="Butter"
+        ingredient4="Flour"
       />
       <Page
         foodName="Pizza"
-        ingredients="idk"
+        ingredient1="Pizza Dough"
+        ingredient2="Tomato sauce"
+        ingredient3="Mozzarella"
+        ingredient4="Pepperoni"
       />
       <Footer />
     </main>

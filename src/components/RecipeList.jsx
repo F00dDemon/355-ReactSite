@@ -1,11 +1,16 @@
 import "./PageContent.css";
-import Page from "./Page";
+import "./Page";
 
-export default function RecipeList({ description }) {
+export default function RecipeList(ingredient1, ingredient2, ingredient3, ingredient4) {
   return( 
-    <h3 className="pure-u-1-2 arrayGuys">
-      <p id="howToDesc">Recipe: </p>
-    </h3>
+    <div className="pure-u-1-2 arrayGuys">
+      <h3>
+        <p id="howToDesc">Recipe: </p>
+          <ul>
+
+        </ul>
+      </h3>
+    </div>
 
   );
 }
