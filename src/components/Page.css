@@ -1,10 +1,9 @@
 .mainContent{
     display: block;
-    margin: 4rem;
+    margin:  2rem auto;
     padding: 2rem;
     border: 2px solid blue
 }
-#contentTitle{
+h1{
     text-align: center;
-    border: 2px solid red;
 }

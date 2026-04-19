@@ -1,11 +1,13 @@
+import "./Header.css";
+
 export default function Header() {
   return (
     <header className="headerBar">
-      <h1>Italian Food</h1>
+      <h1>Kevrion's Italian Food</h1>
       <nav className="navBar">
-        <a href="#">Food 1</a>
-        <a href="#">Food 2</a>
-        <a href="#">Food 3</a>
+        <a href="#Risotto">Risotto </a> |
+        <a href="#Mushroom Veal"> Mushroom Veal </a> |
+        <a href="#Pizza"> Pizza </a>
       </nav>
     </header>
   );

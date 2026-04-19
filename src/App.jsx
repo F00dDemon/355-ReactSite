@@ -6,14 +6,26 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <main>
       <Header />
       <Hero />
-      <Page foodName="Risotto"/>
-      <Page foodName="Mushroom Veal"/>
-      <Page foodName="Pizza"/>
+      <Page
+        foodName="Risotto"
+        howTo="HOW TO: Risotto description"
+        ingredients="Rice Broth, butter, cheese"
+      />
+      <Page
+        foodName="Mushroom Veal"
+        howTo="HOW TO: Mushroom description"
+        ingredients="yeumlolri,m"
+      />
+      <Page
+        foodName="Pizza"
+        howTo="HOW TO: Pizza description"
+        ingredients="idk"
+      />
       <Footer />
-    </div>
+    </main>
   );
 }
 
