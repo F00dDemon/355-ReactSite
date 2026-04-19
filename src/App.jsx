@@ -8,20 +8,18 @@ function App() {
   return (
     <main>
       <Header />
+      <hr></hr>
       <Hero />
       <Page
         foodName="Risotto"
-        howTo="HOW TO: Risotto description"
         ingredients="Rice Broth, butter, cheese"
       />
       <Page
         foodName="Mushroom Veal"
-        howTo="HOW TO: Mushroom description"
         ingredients="yeumlolri,m"
       />
       <Page
         foodName="Pizza"
-        howTo="HOW TO: Pizza description"
         ingredients="idk"
       />
       <Footer />

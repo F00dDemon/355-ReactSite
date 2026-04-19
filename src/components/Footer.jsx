@@ -3,8 +3,7 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <footer>
-      <div>Kevin</div>
-      <div>Orion</div>
+      <div>Kevin Orion © Trademark</div>
     </footer>
   );
 }

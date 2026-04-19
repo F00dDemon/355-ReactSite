@@ -1,9 +1,22 @@
 *{
     font-family: 'Roboto Slab';
 }
+body{
+    background: linear-gradient(
+  180deg,
+  #009247,
+  #F2F2F2 700px,
+  #CF2A38
+    )
+}
 main{
     width: 60%;
-    margin: auto;
-    padding: 2rem;
+    border: 4px solid red;
+    display: block;
+    margin:  2rem auto;
+    box-shadow: 10px 15px #1a1a1a;
+    background-color: white;
+}
+hr{
     border: 2px solid red;
 }

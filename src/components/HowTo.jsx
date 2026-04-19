@@ -1,10 +1,10 @@
 import "./PageContent.css";
 import Page from "./Page";
 
-export default function HowTo({ description }) {
+export default function HowTo({}) {
   return (
-    <ol className="pure-u-1-2 arrayGuys">
-      <p id="howToDesc">{description} </p>
-    </ol>
+    <h3 className="pure-u-1-2 arrayGuys">
+      <p id="howToDesc">How to:</p>
+    </h3>
   );
 }
